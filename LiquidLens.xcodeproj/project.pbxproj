@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D64F771E303A220D00CFC922 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D64F771D303A220D00CFC922 /* README.md */; };
+		D64F7720303A222A00CFC922 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = D64F771F303A222A00CFC922 /* LICENSE.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D64F770D303A1C4800CFC922 /* LiquidLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64F771D303A220D00CFC922 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D64F771F303A222A00CFC922 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +41,8 @@
 			children = (
 				D64F770F303A1C4800CFC922 /* LiquidLens */,
 				D64F770E303A1C4800CFC922 /* Products */,
+				D64F771D303A220D00CFC922 /* README.md */,
+				D64F771F303A222A00CFC922 /* LICENSE.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64F7720303A222A00CFC922 /* LICENSE.md in Resources */,
+				D64F771E303A220D00CFC922 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
